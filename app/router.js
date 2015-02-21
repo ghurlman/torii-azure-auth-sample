@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('anon');
+  this.route('protected');
+  this.route('admin');
+  this.route('login');
 });
 
 export default Router;

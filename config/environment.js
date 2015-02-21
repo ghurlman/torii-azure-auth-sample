@@ -43,5 +43,16 @@ module.exports = function(environment) {
 
   }
 
+  ENV['torii'] = {
+    providers: {
+      'github-oauth2': {
+        apiKey: '312a3767e6946ec1f0bd',
+        redirect_uri: "http://0.0.0.0:4200",
+        //scope: "",
+        state: "88e491b5-5009-4fa9-8d66-9d61bdb2007e"
+      }
+    },
+  }
+
   return ENV;
 };
