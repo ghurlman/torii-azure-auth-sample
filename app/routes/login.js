@@ -5,6 +5,10 @@ export default Ember.Route.extend({
         githubLogin: function() {
             this.get('session').authenticate('simple-auth-authenticator:torii', 'github-oauth2');
             return;
+        },
+        azureLogin: function() {
+            this.get('session').authenticate('simple-auth-authenticator:torii', 'azure-oauth2');
+            return;
         }
     }
 });
