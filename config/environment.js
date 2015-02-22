@@ -47,10 +47,15 @@ module.exports = function(environment) {
     providers: {
       'github-oauth2': {
         apiKey: '312a3767e6946ec1f0bd',
-        redirect_uri: "http://0.0.0.0:4200",
-        //scope: "",
+        redirect_uri: "http://localhost:4200",
+        state: "88e491b5-5009-4fa9-8d66-9d61bdb2007e"
+      },
+      'azure-oauth2': {
+        apiKey: 'f24ca40c-1a64-45be-bf0a-2107da503941',
+        redirect_uri: "http://localhost:4200",
         state: "88e491b5-5009-4fa9-8d66-9d61bdb2007e"
       }
+
     },
   }
 
