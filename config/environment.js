@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'torii-azure-provider-sample',
+    modulePrefix: 'torii-azure-provider',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
